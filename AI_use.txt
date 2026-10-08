@@ -13,5 +13,5 @@ Decisions I made (Claude suggested options; I chose):
 - Holding R1016 until its Vrbo payout arrives.
 - Not paying listing L006 without an owner agreement.
 - Following the brief literally on the direct processing fee, and flagging it as a question.
-
+Where the AI got something wrong, and how I caught it:
 Claude said charging owners the direct booking card fee was "arguably unfair." I questioned that by asking about cleaning fees. When Claude rechecked, it found that owners already pay Airbnb's and Vrbo's fees on cleaning too, even though that money doesn't always go to them. So the only real difference for direct bookings is the card fee on taxes, about $14.94 for September. I kept the brief's rule and flagged it as a question in the README.
