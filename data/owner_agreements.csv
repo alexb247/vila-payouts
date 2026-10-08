@@ -1,0 +1,6 @@
+listing_id,listing_name,owner_name,owner_email,commission_pct,cleaning_fee_to
+L001,Silver Lake Bungalow,Dana Whitfield,dana.whitfield@example.com,0.20,company
+L002,Venice Canal Loft,Marcus Oyelaran,m.oyelaran@example.com,0.25,owner
+L003,Echo Park Studio,Priya Raman,priya.raman@example.com,0.18,company
+L004,Los Feliz Craftsman,Dana Whitfield,dana.whitfield@example.com,0.20,company
+L005,Mar Vista Cottage,Tom & Lisa Becker,beckers@example.com,0.22,owner

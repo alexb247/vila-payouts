@@ -1,0 +1,17 @@
+AI USE
+
+Tool: Claude (Anthropic), in the Claude app.
+
+What I used it for:
+- Learning the business rules. I asked it to explain the brief's payout and deposit rules in plain terms, then worked reservations by hand to check my understanding (R1006: owner payout 632.72, expected Airbnb deposit 940.90, matched to TXN50068).
+- Walking the bank file. It pointed me to the unusual deposits and I worked through what each one meant (for example, the two identical 1,552.00 deposits for R1013: one booking can't pay twice, so one is a duplicate and should be counted once).
+- Writing code. Claude drafted payouts.py, reconcile.py, main.py, and the tests. I ran the program and the tests on my own machine and checked the output against reservations I worked out by hand.
+- Writing the README. Claude drafted it from the decisions I made.
+
+Decisions I made (Claude suggested options; I chose):
+- Statement month by check-out date.
+- Holding R1016 until its Vrbo payout arrives.
+- Not paying listing L006 without an owner agreement.
+- Following the brief literally on the direct processing fee, and flagging it as a question.
+
+Claude said charging owners the direct booking card fee was "arguably unfair." I questioned that by asking about cleaning fees. When Claude rechecked, it found that owners already pay Airbnb's and Vrbo's fees on cleaning too, even though that money doesn't always go to them. So the only real difference for direct bookings is the card fee on taxes, about $14.94 for September. I kept the brief's rule and flagged it as a question in the README.
